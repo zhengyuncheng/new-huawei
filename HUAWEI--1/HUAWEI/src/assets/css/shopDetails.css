@@ -1,0 +1,453 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,ol,ul,dl,dd,p,th,td,input,select,textarea{
+	margin:0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+	font-size:.16rem;
+}
+a{
+	text-decoration:none;
+}
+ul,ol,li{
+	list-style:none;
+}
+img{
+	border:none;
+	display:block;
+}
+body,html{
+	height:100%;
+}
+html{
+	font-size: 24.15vw;
+}
+body{
+	font-family:"微软雅黑";
+	display: flex;
+	flex-direction:column;
+}
+.content{
+	flex:1;
+	overflow-y:auto;
+}
+/*banner*/
+.banner{
+	width:100%;
+	height:3.6rem;
+	position:relative;
+	height:3.6rem;
+	
+}
+.banner img{
+	height:3.6rem;
+	width:4.14rem;
+}
+.leftLi,.rightLi{
+	width:.26rem;
+	height:.26rem;
+	background:#b2b2b2;
+	border-radius: 50%;
+	z-index: 1;
+	font-size:.18rem;
+	line-height:.26rem;
+	text-align:center;
+	color:#fff;
+}
+.leftLi{
+	position:absolute;
+	top:.07rem;
+	left:.14rem;
+	
+}
+.rightLi{
+	position:absolute;
+	top:.07rem;
+	right:.14rem;
+	line-height:.2rem;
+}
+
+.inside{
+	background: #f7f7f9;
+}
+/*.introduction*/
+.introduction{
+	background: #fff;
+	margin-bottom:5px;
+	padding:0 12px;
+
+}
+.introduction h2{
+	font-size:.16rem;
+	color:#b83137;
+	line-height: .5rem;
+	font-weight:bolder;
+}
+.introduction h3{
+	font-size:.16rem;
+	color:#2a2a2a;
+	line-height:.21rem;
+	height:.42rem;
+	overflow:hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	font-weight:bolder;
+}
+.introduction span{
+	color:darkred;
+}
+.introduction div{
+	margin-top:5px;
+	font-size:.14rem;
+	color:#888;
+	overflow:hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	padding-right: 10px;
+}
+.evaluation span{
+	color:#9d2a39;
+}
+.common h6{
+	font-size:.14rem;
+	color:#888;
+	float:left;
+	width:15%;
+	text-align: center;
+}
+.promotion span{
+	font-size:.1rem;
+	color:#cf838d;
+	border:1px solid #cf838d;
+	width:.38rem;
+	height:.1rem;
+	line-height:.1rem;
+	text-align:center;
+	border-radius:.07rem;
+	margin-right:.08rem;
+}
+.promotion p{
+	line-height: .2rem;
+	text-overflow: ellipsis;
+	overflow:hidden;
+	white-space: nowrap;
+}
+.detail{
+	font-size:.14rem;
+	float:left;
+	width:85%;
+	
+}
+.promotion{
+	border-top:1px solid #f7f7f9;
+	margin-top:.2rem;
+	padding-top:.15rem;
+	margin-bottom:.08rem;
+	overflow:hidden;
+}
+.common b{
+	font-weight:normal;
+	padding:2px 8px;
+	border:1px solid #b83137;
+	float:left;
+	border-radius:16px;
+	margin-right:.1rem;
+	margin-bottom:.1rem;
+}
+.common{
+	padding:10px 0;
+	overflow: hidden;
+	background: #fff;
+}
+.num em{
+	padding:0 5px;
+	font-style:normal;
+}
+.num button{
+	border-radius: 50%;
+	background: #fff;
+}
+.safe i{
+	padding:1px 3px;
+	border:1px solid #e5e5e5;
+	font-style: normal;
+	font-size: .12rem;
+}
+.safe b{
+	float: right;
+	font-weight: normal;
+}
+.safe{
+	position: relative;
+	margin-bottom: 5px;
+}
+.safe:after{
+	content: "...";
+	position: absolute;
+	top:0;
+	right:10px;
+	font-size: .22rem;
+}
+.recommend b{
+	background: #f9f9f9;
+}
+/*评价*/
+.evaluation{
+	background:#fff;
+	border-bottom:5px solid #f7f7f9;
+	padding:0 12px;
+
+}
+.evaluation-top{
+	height: .5rem;
+	line-height: .5rem;
+}
+.evaluation h2{
+	font-size:.18rem;
+	font-weight: bolder;
+	float:left;
+
+}
+.evaluation h3{
+	font-size: .14rem;
+	float:right;
+}
+.eva-top img{
+	width:.3rem;
+	height: .3rem;
+	float:left;
+	margin-right:5px;
+}
+.eva-top h4{
+	font-size: .1rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space:nowrap;
+}
+.eva-top div{
+	float:left;
+	width:60%;
+}
+.eva-top li{
+	float: left;
+	width:.1rem;
+	height:.1rem;
+	background: url(../img/star.png) no-repeat center;
+	background-size: 100%;
+	background-position:0 -.1rem;
+	margin-right:5px;
+}
+.eva-left{
+	float: left;
+	width:60%;
+}
+.eva-right{
+	float:right;
+	margin-right:15px;
+}
+.eva-right img{
+	width:.86rem;
+	height:.86rem;
+	margin-top:10px;
+}
+.user-evaluation{
+	width:3rem;
+	border:1px solid #ccc;
+	overflow:hidden;
+	padding:5px;
+	background:#fff;
+	flex-shrink:0;	
+	margin-right:10px;
+}
+.eva-left p{
+	width:100%;
+	font-size:.14rem;
+	overflow:hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+}
+.lunbo{
+	display: flex;
+	flex-wrap:nowrap;
+	overflow-x: auto;
+}
+.last{
+	flex-shrink:0;	
+	width:1rem;
+	font-size:.14rem;
+	text-align:center;
+	background:#eee;
+	padding-top:.5rem;
+}
+.bottom{
+	font-size:.14rem;
+	margin:.2rem auto;
+	border:1px solid #b83137;
+	border-radius: .16rem;
+	width:1rem;
+	height:.25rem;
+	text-align:center;
+	line-height:.25rem;
+}
+/*footer*/
+footer{
+	height:.42rem;
+	padding-top:.1rem;
+	overflow: hidden;
+	clear: both;
+	padding-bottom:.2rem;
+}
+.list{
+	background:#fff;
+	font-size: .14rem;
+	color:#656565;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+footer img{
+	width:.2rem;
+	height:.2rem;
+	margin:0 auto;
+	
+}
+footer .left{
+	font-size:.14rem;
+	text-align:center;
+	width:10%;
+	margin:2%;
+	float:left;
+}
+.btn{
+	height:.42rem;
+	width:80%;
+	background:#e14337;
+	line-height:.42rem;
+	text-align:center;
+	float:left;
+	font-size:.14rem;
+	margin:2%;
+	color:#fff;
+	border-radius: .42rem;
+}
+/*参数规格*/
+
+.pick{
+	padding:.14rem;
+	background: #fff;
+	margin-bottom: 10px;
+}
+.intro h2{
+	font-size:.16rem;
+	font-weight: bolder;
+	margin-bottom: 10px;
+	clear:both;
+}
+.pick ul{
+	width:40%;
+	float:left;
+}
+.pick li{
+	font-size:.14rem;
+	color:#3e3e3e;
+	line-height: .3rem;
+}
+.pick h5{
+	font-size:.14rem;
+	clear: both;
+}
+.intro{
+	font-size: .14rem;
+	background:#fff;
+	padding:.14rem;
+	margin-bottom:10px;
+}
+.intro h3{
+	float: left;
+	width:25%;
+	margin-right:4%;
+	font-size: .14rem;
+	padding:5px 0;
+}
+.intro p{
+	width:70%;
+	float:left;
+	padding:5px 0;
+}
+.intro div{
+	overflow: hidden;
+}eva
+.intro h4{
+	font-size: .14rem;
+	font-weight: bold;
+	line-height: .22rem;
+}
+.intro ul{
+	list-style: disc;
+	padding-left:.16rem;
+
+}
+/*评价*/
+.evaluate{
+	background:#fff;
+	padding:10px;	
+	margin-bottom:.2rem;			
+}
+.evaluate h2{
+	font-size: .16rem;
+	float: left;
+	margin-right:.2rem;
+}
+.evaluate-nav{
+	height: .3rem;
+}
+.user-eva p{
+	font-size: .14rem;
+	clear: both;
+	padding: .2rem;
+}
+.photo{
+	padding-left:.2rem;
+}
+.photo img{
+	width:1rem;
+	height:1rem;
+	float:left;
+	margin-right:.15rem;
+	margin-bottom:.15rem;
+}
+.eva-bottom{
+	clear:both;
+	padding:.2rem;
+}
+.eva-bottom span{
+	font-size: .14rem;
+	float:left;
+}
+.eva-bottom div{
+	float: right;
+}
+.eva-bottom img{
+	width:.2rem;
+	height:.2rem;
+	float:left;
+	vertical-align: middle;
+}
+.eva-bottom i{
+	font-size: .16rem;
+	float:left;
+	font-style:normal;
+	vertical-align: middle;
+
+}
+.service{
+	font-size: .16rem;
+	padding:.2rem;
+}
+.service span{
+	color:#ac4465;
+}

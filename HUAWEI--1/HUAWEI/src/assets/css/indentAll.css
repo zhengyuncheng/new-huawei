@@ -1,0 +1,142 @@
+@charset "utf-8";
+body,p,h1,h2,h3,h4,h5,h6,ol,ul,dl,dd,th,td,input,textarea,select{
+	margin:0;padding:0;
+}
+a{text-decoration:none;}
+b,strong,h1,h2,h3,h4,h5,h6{
+	font-size:.16rem;
+	font-weight:normal;
+}
+ul,ol,li{
+	list-style: none;
+}
+html,body{height:100%;}
+html{font-size:24.15vw;}
+img{display: block;border: none;}
+body{
+	font-family:"微软雅黑";
+}
+
+/*payment-details订单详情*/
+.payment-num{
+	height:.32rem;
+	line-height:.32rem;
+	border-top:5px solid #f9f9f9;
+	border-bottom:1px solid #ececec;
+	font-size: .14rem;
+	padding:0 .2rem;
+}
+.payment-num h2{
+	color:#9b9b9b;
+	float:left;
+	
+}
+.payment-num h3{
+	color:#d70311;
+	float:right;
+	
+}
+
+.shop-details{
+	padding: .2rem;
+	overflow: hidden;
+	
+}
+.intro,.shop-gift{overflow: hidden;}
+.intro img{
+	width:.66rem;
+	height:.77rem;
+	margin:0 3%;
+	float:left;
+}
+.intro div{
+	float: left;
+	width:75%;
+}
+.intro h3{
+	font-size:.16rem;
+	line-height: .25rem;
+	width:70%;
+	float:left;
+	margin-right:.2rem;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+	overflow: hidden;
+}
+.intro div:after{
+	content: "x1";
+	font-size:.16rem;
+	display: block;
+	float:right;
+	color:#9a9a9a;
+	clear:right;
+}
+.intro h5{
+	font-size: .14rem;
+	float: right;
+}
+/*赠品*/
+
+.shop-gift h3{
+	font-size:.15rem;
+	color:#5c5c5c;
+	float: left;
+	width:15%;
+	clear:both;
+	line-height: .3rem;
+	margin-right:1%;
+	margin-left:.2rem;
+}
+.shop-gift div{
+	float: left;
+	width:76%;
+}
+.shop-gift h4{
+	text-indent:.2rem;
+	line-height:.3rem;
+	font-size:.15rem;
+	color:#9a9a9a;
+	
+}
+.shop-gift h4:after{
+	content: "x1";
+	float:right;
+}
+
+.shop-details-footer{
+	background: url(../img/payment-pic.png) no-repeat left top;
+	background-size:100% .07rem;
+	overflow: hidden;
+	padding-top:.1rem;
+}
+.shop-details-footer h2{
+	font-size:.14rem;
+	line-height:.32rem;
+	float: right;
+}
+.shop-details-footer h2 span{
+	font-size: .16rem;
+	font-weight:bold;
+}
+.shop-details-footer div{
+	float:right;
+	font-size: .15rem;
+	clear: both;
+}
+.shop-details-footer button{
+	width:.7rem;
+	height:.26rem;
+	line-height: .2rem;
+	text-align:center;
+	border-radius: .26rem;
+	background:#fff;
+	border:1px solid #d4d4d4;
+	margin-top:.1rem;
+	outline:none;
+}
+.shop-details-footer button:last-child{
+	color:#fff;
+	background:#c9141d;
+	margin-left:.1rem;
+}

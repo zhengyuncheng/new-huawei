@@ -1,0 +1,19 @@
+ {
+	"shopIndents":[
+		{
+			"orderNumber":"123123123",
+			"pic":"https://res.vmallres.com/pimages//product/6901443292097/428_428_1552440929767mp.png",
+			"title":"荣耀20 4800万超广角AI四摄  8GB+128GB 官方标配",
+			"price":2988,
+			"gift":["【荣耀手表】30元优惠卷","【荣耀穿戴产品】15元优惠卷","【荣耀YOYO音响】39元优惠卷","途虎养车1000元礼包"]
+		},
+		{
+			"orderNumber":"23423",
+			"pic":"https://res.vmallres.com/pimages//product/6901443105625/428_428_1554203690280mp.png",
+			"title":"HUAWEI P30 Pro 麒麟980 超感光徕卡四摄 屏内指纹 双景录像 8GB+128GB 全网通版（天空之境）",
+			"price":4988,
+			"gift":["【荣耀YOYO音响】39元优惠卷","途虎养车1000元礼包"]
+		}
+	]
+ }
+

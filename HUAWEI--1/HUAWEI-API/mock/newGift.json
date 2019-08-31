@@ -1,0 +1,106 @@
+{
+	"newHelloGift":"???",
+	"newUserGifts":[
+		{
+			"price":15,
+			"discountShop":"限荣耀手环4，荣耀手环3，荣耀小K2",
+			"validTime":"2019.07.18 - 2019.08.31"
+		},
+		{
+			"price":35,
+			"discountShop":"限荣耀手环4，荣耀手环3，荣耀小K2",
+			"validTime":"2019.07.18 - 2019.08.31"
+		},
+		{
+			"price":40,
+			"discountShop":"限荣耀手环4，荣耀手环3，荣耀小K2",
+			"validTime":"2019.07.18 - 2019.08.31"
+		},
+		{
+			"price":65,
+			"discountShop":"限荣耀手环4，荣耀手环3，荣耀小K2",
+			"validTime":"2019.07.18-2019.08.31"
+		},
+		{
+			"price":75,
+			"discountShop":"限荣耀手环4，荣耀手环3，荣耀小K2",
+			"validTime":"2019.07.18 - 2019.08.31"
+		}
+	],
+	"moreGifts":[
+		{
+			"price":175,
+			"discountShop":"限荣耀手环4，荣耀手环3，荣耀小K2",
+			"validTime":"2019.07.18 - 2019.08.31"
+		},
+		{
+			"price":275,
+			"discountShop":"限荣耀手环4，荣耀手环3，荣耀小K2",
+			"validTime":"2019.07.18 - 2019.08.31"
+		},
+		{
+			"price":375,
+			"discountShop":"限荣耀手环4，荣耀手环3，荣耀小K2",
+			"validTime":"2019.07.18 - 2019.08.31"
+		}
+	],
+	"newWelfare":[
+		{
+			"pic":"??",
+			"title":"华为智能体脂称",
+			"price":0.01,
+			"original":169
+		},
+		{
+			"pic":"??",
+			"title":"体脂称",
+			"price":0.01,
+			"original":298
+		}
+	],
+	"golden":"???",
+	"newInterest":[
+		"???","???","???"
+	],
+	"shopingInvoice":[
+		{
+			"pic":"???",
+			"title":"HUAWEI WATCH GT",
+			"intro":"强劲续航，智能提醒，移动支付",
+			"price":1488
+		},
+		{
+			"pic":"???",
+			"title":"HUAWEI WATCH GT",
+			"intro":"强劲续航，智能提醒，移动支付",
+			"price":99988
+		},
+		{
+			"pic":"???",
+			"title":"HUAWEI WATCH GT",
+			"intro":"强劲续航，智能提醒，移动支付",
+			"price":2488
+		},
+		{
+			"pic":"???",
+			"title":"HUAWEI WATCH GT",
+			"intro":"强劲续航，智能提醒，移动支付",
+			"price":11488
+		},
+		{
+			"pic":"???",
+			"title":"HUAWEI WATCH GT",
+			"intro":"强劲续航，智能提醒，移动支付",
+			"price":2488
+		},
+		{
+			"pic":"???",
+			"title":"HUAWEI WATCH GT",
+			"intro":"强劲续航，智能提醒，移动支付",
+			"price":11488
+		}
+	],
+	"topBanner":[
+		"???","???"
+	]
+}

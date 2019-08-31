@@ -1,0 +1,352 @@
+@charset "utf-8";
+body,p,h1,h2,h3,h4,h5,h6,dl,dd,th,td,ul,ol,input,textarea,select{
+	margin:0;padding:0;
+}
+a{text-decoration:none;}
+b,strong,h1,h2,h3,h4,h5,h6{font-weight: normal;font-size:.16rem;}
+img{display: block;border:none;}
+ul,li,ol{list-style:none;}
+html{font-size:24.15vw;}
+body,html{height:100%;}
+body{
+	font-family:"微软雅黑";
+	display: flex;
+	flex-direction: column;
+}
+.content{
+	background:#fef0e7;
+	flex:1;
+	overflow-y: auto;
+}
+/*隐藏滚动条*/
+.content::-webkit-scrollbar {display:none}
+/*header*/
+header{
+	height:.44rem;
+	font-size:.17rem;
+	line-height:.44rem;
+	text-align: center;
+	position:relative;
+	font-weight: bolder;
+}
+header img{
+	position: absolute;
+	top:.05rem;
+	left:.17rem;
+	font-size: .2rem;
+	width: .3rem;
+	height: .3rem;
+}
+/*banner*/
+.banner{
+	background:url(../img/new-banner.png) no-repeat left center;
+	background-size: 4.14rem 2.96rem;
+	position:relative;
+	height:2.96rem;
+}
+.banner div{
+	width:1rem;
+	height:.3rem;
+	border-radius:.24rem;
+	background:#d06471 url(../img/person.png) no-repeat .1rem center;
+	background-size: .13rem .13rem;
+	position: absolute;
+	top:.1rem;
+	right:.2rem;
+}
+.banner span{
+	float: left;
+	font-size:.12rem;
+	color:#fff;
+	line-height: .3rem;
+	height:.24rem;
+	margin-right:5px;
+}
+.banner span:first-child{
+	margin-left:.26rem;
+}
+/*new-common-1*/
+.new-common-1{padding:.1rem;}
+.new-h2{
+	font-size:.22rem;
+	font-family: "楷体";
+	text-align:center;
+	line-height:.22rem;
+	margin-top:.28rem;
+	color:#242037;
+	font-weight:bolder;
+}
+.new-h3{
+	font-size:.12rem;
+	line-height:.3rem;
+	text-align:center;
+	color:#514d44;
+	margin-bottom:.16rem;
+}
+.new-common-box{
+	width:3.7rem;
+	height:1.12rem;
+	border-radius:.2rem;
+	border:1px dashed #f3c171;
+	margin:.1rem;
+	float:left;
+}
+.big-new-common-box{
+	width:3.9rem;
+	height:1.32rem;
+	background:#d85b55;
+	border-radius:.24rem;
+	margin:0 auto;
+}
+.new-common-box h4{
+	font-size:.18rem;
+	color:#f8ece0;
+	padding:.2rem;
+	color:#fff;
+	font-family:"楷体";
+	line-height: .24rem;
+}
+.new-common-box h4 span{
+	width:.88rem;
+	height:.24rem;
+	border-radius:.14rem;
+	background:#fff5eb;
+	color:#090625;
+	float:right;
+	line-height:.24rem;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:.16rem;
+	font-weight: bolder;
+}
+.new-common-box h5{
+	font-size:.18rem;
+	color:#fff;
+	width:.38rem;
+	height: .38rem;
+	border:1px solid #fff;
+	border-radius:50%;
+	line-height:.38rem;
+	text-align:center;
+}
+.new-common-box div{
+	display: flex;
+	justify-content: space-around;
+}
+/*new-common-2 新人礼包*/
+.new-common-2{padding:.1rem;overflow: hidden;}
+.new-common-2 div{
+}
+.newUserGift-big{
+	width:1.88rem;
+	height:1rem;
+	background:#d75b53;
+	overflow: hidden;
+	border-radius:5px;
+}
+.newUserGift{
+	color:#fff;
+	text-align:center;
+	width:1.75rem;
+	height:.88rem;
+	position:relative;
+	border:1px solid #eee;
+	margin:.05rem;
+	border-radius:5px;
+
+}
+.newUserGift div{
+	width:75%;
+	float:left;
+}
+.new-common-2 h4{
+	font-size:.26rem;
+	line-height:.36rem;
+	font-weight: bold;
+	
+}
+.new-common-2 h4 i{
+	font-size:.16rem;
+	font-style:normal;
+}
+.new-common-2 h5{
+	font-size:.12rem;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+	overflow: hidden;
+	line-height:.14rem;
+	padding:0 .2rem;
+}
+.new-common-2 h6{
+	font-size:.1rem;
+	background:#fff;
+	color:indianred;
+	width:1.2rem;
+	height:.16rem;
+	line-height:.16rem;
+	border-radius:.16rem;
+	position:absolute;
+	bottom:.05rem;
+	left:.1rem;
+	text-align:left;
+}
+.new-common-2 p{
+	width:25%;
+	float:left;
+	font-size:.1rem;
+	box-sizing:border-box;
+	padding:0 .1rem;
+	margin-top:.1rem;
+	border-left: 1px dashed #fff;
+}
+.new-common-2 span{
+	font-size:.1rem;
+	color:#d75b53;
+	padding:0 .02rem;
+	background:#fff;
+	border-radius: 0 .12rem .12rem 0;
+	position:absolute;
+	left:0;
+	top:.05rem;
+}
+.new-common-2-box{
+	float:left;
+	margin-right:2%;
+	margin-bottom:2%;
+}
+.new-common-2-h3{
+	clear:both;
+}
+/*new-common-3*/
+.new-common-3{padding:.1rem;}
+.new-common-3 div{
+	width:1.87rem;
+	float: left;
+	margin-right:2.5%;
+	margin-top:.3rem;
+	background:#fff;
+}
+.new-common-3 div img{
+	width:100%;
+}
+.new-common-3 h4{
+	font-size:.14rem;
+	text-align:center;
+	line-height:.28rem;
+}
+.new-common-3 h5{
+	font-size:.12rem;
+	color:#d52f2f;
+	text-align: center;
+	margin-right: 5px;
+	margin-bottom:.1rem;
+
+}
+.new-common-3 h5 span{
+	font-size:.1rem;
+	text-decoration:line-through;
+	color:#ccc;
+}
+.new-common-3 h6{
+	width:1rem;
+	height:.25rem;
+	font-size:.14rem;
+	color:#fff;
+	line-height:.25rem;
+	text-align:center;
+	background:#d52f2f;
+	margin:0 auto;
+	border-radius:.25rem;
+}
+/*new-common-4*/
+.new-common-4{
+	clear:both;
+	margin-top:3.3rem;
+}
+.new-common-4-box{
+	background: url(../img/shengji.png) no-repeat left center;
+	background-size: 100% 100%;
+}
+/*.new-common-5*/
+.new-common-5 img{
+	width:3.76rem;
+	height:1.36rem;
+	margin:.1rem auto;
+}
+/*new-common-6*/
+.new-common-6 img{
+	width:2rem;
+	height:1.7rem;
+}
+.new-common-6 div{
+	float: left;
+	width:48%;
+	margin-right:2%;
+	text-align:center;
+	background:#fff;
+	margin-bottom:2%;
+}
+	
+.new-common-6 h4{
+	font-size:.16rem;
+	color:#000;
+	line-height: .16rem;
+}
+.new-common-6 h5{
+	font-size:.10rem;
+	color:#8f8f8f;
+	line-height:.2rem;
+	margin-bottom:10px;
+}
+.new-common-6 h6{
+	width:1.3rem;
+	height:.26rem;
+	margin:0 auto;
+	position:relative;
+	background:#ca2826;
+	border-radius:.26rem;
+	color:#fff;
+	font-size:.14rem;
+	line-height:.26rem;
+}
+.new-common-6 h6 span{
+	width:.22rem;
+	height:.22rem;
+	background:#fff;
+	color:#ca2826;
+	border-radius:50%;
+	line-height: .22rem;
+	position: absolute;
+	top:.02rem;
+	right:.05rem;
+}
+/*footer*/
+footer{
+	background:#fff5eb;
+}
+.footer-pic img{
+	width:100%;
+}
+footer h4{
+	font-size:.18rem;
+	width:1.3rem;
+	height:.26rem;
+	line-height: .26rem;
+	text-align:center;
+	border:1px solid #b2a89e;
+	color:#e85625;
+	float:left;
+	margin-right: .1rem;
+}
+footer div h4:last-child{
+	float: right;
+}
+.footer-pic img:first-child{
+	margin-bottom:.1rem;
+}
+footer div{
+	padding:.3rem .55rem;
+	height:.3rem;
+	
+}
